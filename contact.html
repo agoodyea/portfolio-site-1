@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me!</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+    <body>
+        
+        <header class='main-header'>
+            <div class="container">
+                <div class="name-tage">
+                    <h1 class="name">Aiden Goodyear</h1>
+                    <p class="tag">Web Developer</p>
+                </div>
+                  
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <form>
+
+            <h1>Contact Me</h1>
+
+                <fieldset>
+
+                    <legend><span class="number">1</span> Your basic info</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="person_name">
+
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="person_email">
+
+                    <label for="message">Message:</label>
+                    <textarea name="person_message" id="message"></textarea>
+
+                </fieldset>
+
+                <fieldset>
+
+                        <legend><span class="number">2</span> Who are you</legend>
+
+                        <label for="label">I'm a:</label>
+                        <select id="label" name="person_label">
+                            <option value="potential_employer">Potential Employer</option>
+                            <option value="potential_partner">Potential Busness Partner</option>
+                            <option value="potential_friend">Potential Friend</option>
+                            <option value="potential_chat">Person That Just Wants to Chat</option>
+
+                        </select>
+
+                </fieldset>
+        </form>
+    </body> 
